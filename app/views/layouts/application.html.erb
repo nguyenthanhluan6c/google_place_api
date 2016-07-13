@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GgCordinateClosestTraingStation</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=35.690577,%20139.700872&rankby=distance&types=train_station&language=ja&key=AIzaSyBQ-uK6ziccndcWDdOhE8tmZ3dI4A5AtH8&region=JP
+    <%= yield %>
+  </body>
+</html>
